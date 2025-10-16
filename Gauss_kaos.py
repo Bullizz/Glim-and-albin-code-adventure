@@ -4,7 +4,7 @@ def getMatrix(matrix_len):
   for i in range(matrix_len):
     # array = 'glim_code()'
     # matrix.append(array)
-    matrix.append(0)
+    matrix.append(0) # Placeholder for now, to be removed when actual function is implemented
   print(matrix)
 
 class main:
@@ -13,4 +13,5 @@ class main:
     user_inp = int(user_inp)
     getMatrix(user_inp)
   except:
+    # Kill program if user_inp is wrong datatype
     print("Error, non-integer as input")
