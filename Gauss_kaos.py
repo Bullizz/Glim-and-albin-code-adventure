@@ -1,7 +1,7 @@
-def getMatrix(matrix_len):
+def getMatrix(n):
   #print("len: " + str(matrix_len))
   matrix = []
-  for i in range(matrix_len):
+  for i in range(n):
     # array = 'glim_code()'
     # matrix.append(array)
     matrix.append(0) # Placeholder for now, to be removed when actual function is implemented
